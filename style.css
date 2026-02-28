@@ -112,15 +112,18 @@ nav a {
     font-size: 48px;
     font-weight: bold;
     color: #001931;
-    text-align: center;
     margin-bottom: 16px;
+    text-transform: capitalize;
+}
+
+.text-center {
+    text-align: center;
 }
 
 .section-p {
     font-size: 16px;
     line-height: 20px;
     color: #627382;
-    text-align: center;
 }
 
 .card-box {
@@ -156,5 +159,39 @@ nav a {
 .card-heading {
     font-size: 24px;
     font-weight: 600;
+    color: #001931;
+}
+
+.second-brain-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 60px;
+    margin: 60px 0;
+}
+
+.solution {
+    font-size: 16px;
+    line-height: 20px;
+    font-weight: 500;
+    color: #30B868;
+    text-transform: uppercase;
+}
+
+.check-list {
+    margin-top: 40px;
+}
+
+.check-item {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    margin-bottom: 16px;
+}
+
+.check-detail {
+    font-size: 16px;
+    line-height: 20px;
+    font-weight: 500;
     color: #001931;
 }
